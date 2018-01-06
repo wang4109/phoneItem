@@ -1,0 +1,303 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+button{
+	outline: none;
+	border: none;
+}
+
+.header {
+	position: relative;
+	padding-left: .12rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: .67rem;
+}
+
+.header li {
+	float: left;
+	text-align: center;
+	margin-right: .23rem;
+	width: .89rem;
+	color: #b2b2b2;
+	font: normal .28rem/.63rem "微软雅黑";
+	border-bottom: 0.04rem solid transparent;
+}
+
+.header .hdli {
+	margin-left: .29rem;
+}
+
+.header .hdone {
+	color: #d25e67;
+	border-bottom-color:#d25e67;
+}
+.header .liimg{
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	margin: 0;
+}
+.signIn{
+	width: 7.2rem;
+	height: .58rem;
+	background: #ebe8f3;
+	text-indent: .27rem;
+	line-height: .58rem;
+	color: #84a6bf;
+	font-size: .22rem;
+}
+.signIn .aniu{
+	margin: 0.06rem 0.38rem 0 1.6rem;
+	width: 1rem;
+	height: .4rem;
+	line-height: .4rem;
+	text-align: center;
+	color: #84a6bf;
+	font-size: .22rem;
+	border: 0.01rem solid #d0d4df;
+}
+.signIn img{
+	vertical-align: middle;
+}
+.dvpic1{
+	width: 7.2rem;
+	height: 3.54rem;
+	/*padding-left: 0.13rem;
+	box-sizing: border-box;*/
+}
+.dvpic1 img{
+	width: 7.2rem;
+	height: 3.66rem;
+}
+.ulpic2{
+	position: relative;
+	width: 7.2rem;
+	height: 1.6rem;
+	border-bottom: 0.01rem solid gainsboro;
+}
+.ulpic2 li:nth-of-type(1){
+	float: left;
+	width: 2.28rem;
+	padding:.25rem 0 0 .25rem;
+	box-sizing: border-box;
+}
+.ulpic2 li:nth-of-type(2){
+	float: left;
+	width: 4.9rem;
+	height: 1.6rem;
+	position: relative;
+	padding-top: 0.25rem;
+	box-sizing: border-box;
+	font-size: .28rem;
+}
+.ulpic2 li:nth-of-type(2) img{
+	position: absolute;
+	bottom: .15rem;
+	right: .25rem;
+}
+.dvpic3{
+	position: relative;
+	padding-left: .25rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: 3.5rem;
+	font-size: .28rem;
+	border: 0.01rem solid gainsboro;
+}
+.dvpic3 .bt{
+	margin: .2rem 0 .2rem 0;
+}
+.dvpic3 .ulpic3 li{
+	float: left;
+}
+.dvpic3 .dv3li{
+	margin: 0 .3rem 0 .3rem;
+	
+}
+.dvpic3 span:nth-of-type(1){
+	position: absolute;
+	bottom: .2rem;
+	left: .25rem;
+	font-size: .24rem;
+}
+.dvpic3 span:nth-of-type(2){
+	position: absolute;
+	bottom: .2rem;
+	right: .2rem;
+	color: #9f9f9f;
+	font-size: .24rem;
+}
+.ulpic2{
+	widows: 7.2rem;
+	height: 1.88rem;
+	border: 0.01rem solid gainsboro;
+}
+.ulpic2 li{
+	float: left;
+}
+.ulpic2 .lind{
+	padding: .3rem 0.25rem 0 0 ;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: .25rem;
+	height: .5rem;
+	color: #b8b8b8;
+	font-size: .24rem;
+}
+.ulpic2 .lind span:nth-of-type(1){
+	float: left;
+}
+.ulpic2 .lind span:nth-of-type(2){
+	float: right;
+}
+.ulpic2 .lind .gt{
+	position: absolute;
+	bottom: 0.12rem;
+	right: .67rem;
+}
+.ulpic2 .lindpic{
+	position: absolute;
+	bottom: 0.12rem;
+	right: .25rem;
+}
+.ulpic4{
+	position: relative;
+	padding-left: .25rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: 3.9rem;
+	font-size: .28rem;
+	border-bottom: 0.01rem solid gainsboro;
+}
+.ulpic4 li:nth-of-type(1){
+	height: .84rem;
+	line-height: .85rem;
+}
+.ulpic4 .adv{
+	position: absolute;
+	bottom: .24rem;
+	right: .25rem;
+}
+.ulpic5{
+	padding: 0 .25rem 0 .25rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: 4.42rem;
+	font-size: .28rem;
+	border-bottom: 0.01rem solid gainsboro;
+}
+.ulpic5 li:nth-of-type(1){
+	height: 1.0rem;
+	padding-top: .32rem;
+	box-sizing: border-box;
+	margin-bottom: .2rem;
+}
+.ulpic5 li:nth-of-type(3){
+	height: .8rem;
+	line-height: .8rem;
+	color: #9d9d9d;
+	font-size: .24rem;
+}
+.ulpic6{
+	padding: 0 .25rem 0 .25rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: 3.56rem;
+	font-size: .28rem;
+	border-bottom: 0.01rem solid gainsboro;
+}
+.ulpic6 li:nth-of-type(1){
+	height: 1.0rem;
+	padding-top: .32rem;
+	box-sizing: border-box;
+	margin-bottom: .2rem;
+}
+.ulpic6 li:nth-of-type(3){
+	position: relative;
+	height: .8rem;
+	line-height: .8rem;
+	color: #9d9d9d;
+	font-size: .24rem;
+}
+.ulpic6 li:nth-of-type(3) img{
+	position: absolute;
+	bottom: .24rem;
+	right: .25rem;
+}
+.ulpic6 .ul6li{
+	margin: 0 .15rem 0 .15rem;
+}
+.ulpic6 span:nth-of-type(1){
+	float: left;
+}
+.ulpic6 span:nth-of-type(2){
+	float: right;
+}
+#sdk {
+	height: .7rem;
+}
+.ulpic6 .ul6li{
+	]height: 1.2rem;
+}
+.ulpic6 .ul6litwo img{
+	width: 2.05rem;
+	height: 1.56rem;
+}
+.ulpic7{
+	padding: 0 .25rem 0 .25rem;
+	box-sizing: border-box;
+	width: 7.2rem;
+	height: 3.56rem;
+	font-size: .28rem;
+	border-bottom: 0.01rem solid gainsboro;
+}
+.ulpic7 li:nth-of-type(1){
+	height: 1.2rem;
+	padding-top: .22rem;
+	box-sizing: border-box;
+	margin-bottom: .2rem;
+}
+.ulpic7 li:nth-of-type(3){
+	position: relative;
+	height: .8rem;
+	line-height: .8rem;
+	color: #9d9d9d;
+	font-size: .24rem;
+}
+.ulpic7 li:nth-of-type(3) img{
+	position: absolute;
+	bottom: .24rem;
+	right: .25rem;
+}
+.ulpic7 .ul6li{
+	margin: 0 .10rem 0 .10rem;
+}
+.ulpic7 li:nth-of-type(2) img{
+	width: 2.1rem;
+	height: 1.57rem;
+}
+.footer{
+	width: 7.2rem;
+	height: .87rem;
+	font-size: .18rem;
+	padding: .1rem .5rem 0 .5rem;
+	box-sizing: border-box;
+}
+.footer li{
+	float: left;	
+	width: .4rem;
+	height: .77rem;
+	margin-right: 1.05rem;
+	text-align: center;
+}
+.footer .me{
+	margin-right: 0;
+}
